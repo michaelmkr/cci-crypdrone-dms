@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<img style="height:300px; display:block; margin:auto;" src="img/crypdrone_logo.png" alt="Logo" />
+<div class="text-left" style="display:block; margin:auto;">
+    <p><span style="color: #ff0000;">Ha</span><span style="color: #009933;">llo</span><span style="color: #0000ff;"> Lu</span><span style="color: #ff6600;">cas!</span></p>
+    <p><span style="color: #0066ff;">Fun</span> <span style="color: #663300;">mit</span> <span style="color: #3333ff;">Hyper</span> <span style="color: #33cc33;">Text</span> <span style="color: #ff3300;">Markup</span> <span style="color: #009900;">Language</span></p>
+    <p>Hier findest du unser supergeiles Projekt. Spa&szlig; beiseite, hier was wir gemacht haben:<br />Da wir ja f&uuml;r ein Forschungsprojekt eine App geschrieben haben, die den Standort von Drohnen anzeigt und nachverfolgen kann (wuhu Blockchain) haben wir uns gedacht, wir machen im Zuge deiner Abgabe gleich einen ersten Prototypen um einfach Drohnen einpflegen / updaten / l&ouml;schen zu k&ouml;nnen.</p>
+    <p>Hier findest du den Link zu nem Screenvideo von unserer App: <a title="Crypdrone App Demo" href="https://fhstp-my.sharepoint.com/:v:/g/personal/it191501_fhstp_ac_at/EU7nkoIjlpZAlmSxeXRM0vMBYlFTwThOiUUl_U3baDIHfQ?e=P4eqbF" target="_blank" rel="noopener">Crypdrone App Demo</a></p>
+    <p>Probier doch die folgenden Dinge aus:</p>
+    <ol>
+        <li>Klick auf Drones</li>
+        <li>Erstelle eine neue Drohne (oder mehrere) indem du auf "Create New" klickst</li>
+        <li>Sieh dir die Detailinfos an indem du auf "Details" klickst</li>
+        <li>Bearbeite eine der Drohnen indem du auf "Edit" klickst</li>
+        <li>L&ouml;sche eine der Drohnen indem du auf "Delete" klickst</li>
+        <li>Tob dich gerne auch mit Postman auf localhost:&lt;port&gt;/api/drones aus :D</li>
+    </ol>
+    <p>Lass uns doch bei Fragen oder Anmerkungen einfach sprechen! Wir h&auml;tten nat&uuml;rlich gerne einen 1er, also falls dir etwas nicht passen sollte, worauf wir nat&uuml;rlich nicht hoffen, w&auml;re es super wenn du uns kurz kontaktieren k&ouml;nntest bevor du uns endg&uuml;ltig bewertest ob wir uns verbessern k&ouml;nnen!<br /><br />Vielen lieben Dank und bis bald!</p>
+    <p>LG Marko, Michi, Lisa</p>
+    <p>PS: hier eine Beispiel-Payload:</p>
+    <p><strong>POST /api/drones</strong></p>
+    ​​​​​<code>
+    {<br />&nbsp;&nbsp;
+    "name": "DJI Mavic Air",<br />&nbsp;&nbsp;
+    "customer": "FH St. Pölten",<br />&nbsp;&nbsp;
+    "validUntil": "2021-03-05",<br />&nbsp;&nbsp;
+    "active": true<br />}
+</code>
+</div>
